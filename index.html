@@ -1,0 +1,103 @@
+<!--NAME   :Sourabh Anil Kudale-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="./validate.js"></script>
+</head>
+
+<body>
+    <h1>SURVEY FORM</h1>
+    <form action="success.html" method="get" onsubmit="return validate()">
+        <table>
+            <tr>
+                <td>
+                    <h3 id="t1">PERSONAL INFORMATION</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" placeholder="First Name" class="name" /></td>
+                <td><input type="text" placeholder="Middle Name" class="name" /></td>
+                <td><input type="text" placeholder="Last Name" class="name" /></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth:</td>
+                <td><input type="number" placeholder="01" class="dob"></td>
+                <td><input type="number" placeholder="01" class="dob"></td>
+                <td><input type="number" placeholder="2002" class="dob"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" id="g">Male</td>
+                <td><input type="radio" name="gender" id="g1">Female</td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" placeholder="flat no" class="address" /></td>
+                <td><input type="text" placeholder="building name" class="address" /></td>
+                <td><input type="text" placeholder="area" class="address" /></td>
+                <td><input type="text" placeholder="landmark" class="address" /></td>
+                <td><input type="number" placeholder="pin code" class="address" /></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3 id="t2">EDUCATION INFORMATION</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>SSC marks</td>
+                <td><input type="number" class="marks" /></td>
+            </tr>
+            <tr>
+                <td>HSC marks</td>
+                <td><input type="number" class="marks" /></td>
+            </tr>
+            <tr>
+                <td>Current Pursuing Course</td>
+                <td><input type="text" id="course" /></td>
+            </tr>
+            <tr>
+                <td>Year</td>
+                <td>
+                    <select>
+                        <option>First Year</option>
+                        <option>Second Year</option>
+                        <option>Third Year</option>
+                        <option>Fourth Year</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3 id="t3">CONTACT DETAILS</h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="number" placeholder="phone number" class="detail"></td>
+            </tr>
+            <tr>
+                <td>Alternate Number:</td>
+                <td><input type="number" placeholder="phone number" class="detail"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" class="detail" /></td>
+            </tr>
+            <tr>
+                <td><br><input type="submit" value="Register" id="i1" class="detail" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

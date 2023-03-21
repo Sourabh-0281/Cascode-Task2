@@ -1,0 +1,20 @@
+body{
+    background-color:lightseagreen;
+}
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+#i1:hover{
+    background-color: palevioletred;
+}
+#t1{
+    background-color:lightgreen;
+}
+#t2{
+    background-color: coral;
+    
+}
+#t3{
+    background-color:yellow
+}
